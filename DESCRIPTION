@@ -1,7 +1,7 @@
 Package: rspm
 Type: Package
 Title: 'RStudio' Package Manager
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("Iñaki", "Ucar", email="iucar@fedoraproject.org",
       role=c("aut", "cph", "cre"), comment=c(ORCID="0000-0001-6403-5550")),
@@ -22,9 +22,9 @@ URL: https://enchufa2.github.io/rspm/
 BugReports: https://github.com/Enchufa2/rspm/issues
 RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2022-08-13 23:28:18 UTC; iucar
+Packaged: 2022-09-14 09:43:49 UTC; iucar
 Author: Iñaki Ucar [aut, cph, cre] (<https://orcid.org/0000-0001-6403-5550>),
   R Core Team [aut, cph]
 Maintainer: Iñaki Ucar <iucar@fedoraproject.org>
 Repository: CRAN
-Date/Publication: 2022-08-16 09:20:02 UTC
+Date/Publication: 2022-09-15 09:10:02 UTC

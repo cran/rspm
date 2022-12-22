@@ -1,11 +1,11 @@
-bc95d737f53a28e909cdffffecbddf61 *DESCRIPTION
+15eff2d41d559f145c36ecbd6e14c93e *DESCRIPTION
 ac9adb192f2400e85f332111a057790d *LICENSE
 4ad0c9b4b13a923faf2332b900d4baea *NAMESPACE
-31cb55ecb918e12d8128405307f79d71 *NEWS.md
-5cc9233c0413230d5d1455ef02ba6c3d *R/integration.R
+df0d6c59bc6f1573185985ae9427accf *NEWS.md
+65d0989684bffa7ac567f53dd86a9dde *R/integration.R
 056a208f8acc2b50d5093114a5d12516 *R/manager.R
 944842dbcaa5669e2f6156d4ee7ea37b *R/renv.R
-dc8705917b2e795d7bdbe24800b8b19f *R/rspm.R
+abefd4733d3b2f2adfc67cfaa43d37a6 *R/rspm.R
 b006917a298c8d702236c18f9a7f3839 *R/userdir.R
 a4e1b9e495b295395af441418b6dcf42 *R/utils.R
 7deba11616e7e3bcd5316501ab235e67 *R/zzz_centos_base.R
@@ -13,7 +13,7 @@ b75f921ecef6aea1ca33d282e7ff6eb6 *R/zzz_centos_like.R
 196ba1d60b45edceebb6caf8e277d387 *R/zzz_opensuse_base.R
 448cfa2eaa39db096fbecebe0f5b5b27 *R/zzz_opensuse_like.R
 b1d74e01cecb714e7a778a0b7e86cbf0 *R/zzz_ubuntu_base.R
-0bd13382dfe6b7aabd5d3db35afa5013 *README.md
+141c85f255b24ce4c44d8811d53784fc *README.md
 a5cfc965a90d6f06e1d25de5be5e1a42 *inst/COPYRIGHTS
 977c532c8ba2a4df98ee54eb55cc9eb4 *inst/resources/activate.R
 fd256ce35a0e347ed2b80ff47f500639 *inst/tinytest/test_integration.R
@@ -22,5 +22,5 @@ e81934329c7974ed49d0c5609d021a72 *inst/tinytest/test_renv.R
 90faa32be1e95cd013403acbcc198c5c *man/integration.Rd
 2be0078b16f4a446cf7502c1b0f1f04e *man/manager.Rd
 13646d54aee1a6a45288128687204fee *man/renv_init.Rd
-d1432235fb38dd8bbbe00670ad1a1886 *man/rspm-package.Rd
+c57d396d75ca81e26d34c9be0279bed9 *man/rspm-package.Rd
 a17274ee961f0a695b17f3139f197af4 *tests/tinytest.R

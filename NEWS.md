@@ -1,3 +1,8 @@
+# rspm 0.5.0
+
+- Move to cran4linux org on GitHub, update URLs.
+- Add support for Debian 11 and 12 (#21).
+
 # rspm 0.4.0
 
 - Implement root mode to improve Docker workflows (#20 addressing #17).

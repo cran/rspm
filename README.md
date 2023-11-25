@@ -1,13 +1,13 @@
 # rspm: RStudio Package Manager
 
 <!-- badges: start -->
-[![Build Status](https://github.com/Enchufa2/rspm/workflows/build/badge.svg)](https://github.com/Enchufa2/rspm/actions)
+[![Build Status](https://github.com/cran4linux/rspm/workflows/build/badge.svg)](https://github.com/cran4linux/rspm/actions)
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/rspm)](https://cran.r-project.org/package=rspm)
 <!-- badges: end -->
 
 ## Key features
 
-- Connects to [RStudio Public Package Manager](https://packagemanager.rstudio.com/)
+- Connects to [RStudio Public Package Manager](https://packagemanager.posit.co/)
   to provide **fast binary installations** of R packages on Linux.
 - **Complete coverage** of CRAN and BioConductor packages. 
 - **Full integration** with the system package manager to resolve, download and
@@ -17,13 +17,14 @@
 - Support for **RHEL derivatives**:
   Rocky Linux 8-9, AlmaLinux 8-9, Oracle Linux 7-9, Amazon Linux 2.
 - Support for **openSUSE / SLES** 15.3 and 15.4.
+- Support for **Debian** 11 and 12 (requires `apt-file`).
 - Support for **Ubuntu** 18.04, 20.04 and 22.04 (requires `apt-file`).
 
 Both R packages and system dependencies **are installed into the user home**.
 For lightning-fast system-based installations (which have other advantages,
 such as multitenancy, reversibility and automatic updates, still without root
-privileges), see the [bspm](https://enchufa2.github.io/bspm/) package and
-projects such as [cran2copr](https://github.com/Enchufa2/cran2copr) for Fedora
+privileges), see the [bspm](https://cran4linux.github.io/bspm/) package and
+projects such as [cran2copr](https://github.com/cran4linux/cran2copr) for Fedora
 or [r2u](https://github.com/eddelbuettel/r2u) for Ubuntu.
 
 ## Demo
@@ -32,14 +33,14 @@ Here we enable `rspm` and trigger a binary installation of the `units` package.
 Then, we can see how the UDUNITS-2 dependency is detected, downloaded and
 configured.
 
-![](https://github.com/Enchufa2/rspm/blob/main/docs/assets/rspm_units.gif?raw=true)
+![](https://github.com/cran4linux/rspm/blob/main/docs/assets/rspm_units.gif?raw=true)
 
 ## Installation and usage
 
 You can install it directly from GitHub using the `remotes` package:
 
 ```r
-remotes::install_github("Enchufa2/rspm")
+remotes::install_github("cran4linux/rspm")
 ```
 
 ### Basic usage
@@ -104,13 +105,13 @@ OBS repo for OpenSUSE, the
 Fedora, the [ArchRPkgs](https://github.com/dvdesolve/ArchRPkgs) repo for Arch
 and the [r2u](https://github.com/eddelbuettel/r2u) repo again for Ubuntu.
 These are tightly integrated and can be fully managed without leaving the R
-console thanks to the [bspm](https://enchufa2.github.io/bspm/) package.
+console thanks to the [bspm](https://cran4linux.github.io/bspm/) package.
 See [this paper](https://arxiv.org/abs/2103.08069) for a detailed review.
 
 On the other hand, RStudio recently took a complementary approach by building
 binaries---for various distributions, R versions and architectures---and serving
 them via their own CRAN mirror, also called the
-[RStudio Public Package Manager (RSPM)](https://packagemanager.rstudio.com/).
+[RStudio Public Package Manager (RSPM)](https://packagemanager.posit.co/).
 In contrast to the previous solutions, this method allows the user to install
 binary packages as _user packages_ under their home directory (virtually
 anywhere), instead of as _system packages_. The main issue is that the user has
@@ -140,7 +141,7 @@ made, and without requiring any special privilege.
 
 If you find any bug or you'd like to request support for other distributions
 (importantly, they must be supported by RStudio), please file issues at our
-[GitHub issue tracker](https://github.com/Enchufa2/rspm/issues).
+[GitHub issue tracker](https://github.com/cran4linux/rspm/issues).
 Note though that some quirks may be expected:
 
 - _Some library is not found_. This means that the library version in your

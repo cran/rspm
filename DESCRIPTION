@@ -1,30 +1,30 @@
 Package: rspm
 Type: Package
 Title: 'RStudio' Package Manager
-Version: 0.4.0
+Version: 0.5.0
 Authors@R: c(
     person("Iñaki", "Ucar", email="iucar@fedoraproject.org",
       role=c("aut", "cph", "cre"), comment=c(ORCID="0000-0001-6403-5550")),
     person("R Core Team", role=c("aut", "cph")))
 Description: Enables binary package installations on Linux distributions.
     Provides access to 'RStudio' public repositories at
-    <https://packagemanager.rstudio.com>, and transparent management of
+    <https://packagemanager.posit.co>, and transparent management of
     system requirements without administrative privileges. Currently supported
     distributions are 'CentOS' / 'RHEL' 7-9, and several 'RHEL' derivatives
     ('Rocky Linux', 'AlmaLinux', 'Oracle Linux', and 'Amazon Linux' 2),
-    'openSUSE' / 'SLES' 15.3-4, and 'Ubuntu' 18.04, 20.04 and 22.04.
+    'openSUSE' / 'SLES' 15.3-4, 'Debian' 11-12, and 'Ubuntu' LTS 18-22.
 License: GPL-2 | GPL-3 | MIT + file LICENSE
 Copyright: file COPYRIGHTS
 Encoding: UTF-8
 OS_type: unix
 Suggests: renv, tinytest
-URL: https://enchufa2.github.io/rspm/
-BugReports: https://github.com/Enchufa2/rspm/issues
-RoxygenNote: 7.2.2
+URL: https://cran4linux.github.io/rspm/
+BugReports: https://github.com/cran4linux/rspm/issues
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-04-14 10:39:29 UTC; iucar
+Packaged: 2023-11-25 17:42:28 UTC; iucar
 Author: Iñaki Ucar [aut, cph, cre] (<https://orcid.org/0000-0001-6403-5550>),
   R Core Team [aut, cph]
 Maintainer: Iñaki Ucar <iucar@fedoraproject.org>
 Repository: CRAN
-Date/Publication: 2023-04-14 11:50:02 UTC
+Date/Publication: 2023-11-25 23:40:17 UTC

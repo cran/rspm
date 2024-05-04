@@ -1,7 +1,7 @@
-6f5a0ea9400671117787843915107bc6 *DESCRIPTION
+f9d24b9e3cb97007d7ec7158323a7e95 *DESCRIPTION
 e975ad7c304d5722c1cecca88e56fc28 *LICENSE
 82a1a389187ff9149c65f98781f9bc1b *NAMESPACE
-0b218d1d54802f3a49fe385412d1b5d9 *NEWS.md
+3084bf8dd799363b5cf3dabd1b15710e *NEWS.md
 e388b26eadd8fe02343e1fe12b504588 *R/integration.R
 990f290d821d97549125f5fc639523ee *R/manager.R
 8286aabd72decf034420f9df3aacfca7 *R/os.R
@@ -19,7 +19,7 @@ be38e4574ce7b12e5e624d3839e2070d *R/zzz_rpm.R
 a75411a3892063b58928c016108d93e1 *README.md
 a5cfc965a90d6f06e1d25de5be5e1a42 *inst/COPYRIGHTS
 100942b35679342e1860012837765660 *inst/resources/activate.R
-e74828fb2dd530fb3a04806c883a7bb1 *inst/tinytest/test_integration.R
+cba8e5044e9a8b76823fe2c0451b3c6b *inst/tinytest/test_integration.R
 a63707b5e944422b5572363e0afd50ed *inst/tinytest/test_integration_ci.R
 870f563d7676cfe7daf0b378a045e1e4 *inst/tinytest/test_manager_ci.R
 e81934329c7974ed49d0c5609d021a72 *inst/tinytest/test_renv.R

@@ -1,7 +1,7 @@
-0cc9592c4cbbe51c945498c1d74a99b4 *DESCRIPTION
+f1c5ec129e5865a6f284d546b6a1de67 *DESCRIPTION
 e975ad7c304d5722c1cecca88e56fc28 *LICENSE
 82a1a389187ff9149c65f98781f9bc1b *NAMESPACE
-6ed358a7a99d8725ff59c2455263f2a0 *NEWS.md
+c49942418d143c3505887e5138ca90d9 *NEWS.md
 e388b26eadd8fe02343e1fe12b504588 *R/integration.R
 2dcbe9ec1df6ad0711e4970585809063 *R/manager.R
 0b676fbdedb54b379d852da8b511d780 *R/os.R
@@ -11,12 +11,12 @@ b006917a298c8d702236c18f9a7f3839 *R/userdir.R
 abee1c0efc524b1a61a63459f28188b6 *R/utils.R
 7ae36c2df3ab82e47af9bb451c91e343 *R/zzz_centos_base.R
 8685b1b8024a3ea6d46a4122b8b23353 *R/zzz_centos_like.R
-8d92335cfb23673890e80de38358093d *R/zzz_debian_base.R
+c8b5b016a4c33d0d477b621a78ccb670 *R/zzz_debian_base.R
 5d06510db7090f2d7cf9b639ff2e4308 *R/zzz_debian_like.R
 11fabd8f71a66a37f23da928bc55e825 *R/zzz_opensuse_base.R
 32baeee4535de5f813518013847e150c *R/zzz_opensuse_like.R
 be38e4574ce7b12e5e624d3839e2070d *R/zzz_rpm.R
-518510a1c075c37f1b5676b5e91c9567 *README.md
+a0fc272bbf57991ce032c6e7eae47342 *README.md
 a5cfc965a90d6f06e1d25de5be5e1a42 *inst/COPYRIGHTS
 100942b35679342e1860012837765660 *inst/resources/activate.R
 9f2d7cdc5083629da58be842eb2c860c *inst/tinytest/test_integration_ci.R
